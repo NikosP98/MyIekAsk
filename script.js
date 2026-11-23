@@ -8,8 +8,5 @@ const result = document.querySelector("#result");
 revealButton.addEventListener("click", showPersonalMessage);
 
 function showPersonalMessage() {
-  // TODO — μόνο στο experimental branch:
-  // Γράψε JavaScript ώστε το στοιχείο result να εμφανίζει
-  // μία δική σου φράση όταν πατάμε το κουμπί.
-  // Χρησιμοποίησε το textContent.
+  result.textContent = "Don't Worry i got this";
 }
